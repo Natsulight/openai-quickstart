@@ -146,3 +146,4 @@ Project Link: https://github.com/DjangoPeng/openai-quickstart
 - [x] gpt-4v
 - [x] router_chain
 - [x] openai-translator - add support for other languages
+- [x] sales chatbot - When the vector database cannot find the answer to a question, a prompt can be used to answer the question.

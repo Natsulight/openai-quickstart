@@ -151,3 +151,4 @@ Django Peng - pjt73651@email.com
 - [x] gpt-4v
 - [x] router_chain
 - [x] openai-translator - 增加对其他语言的支持
+- [x] sales chatbot - 向量数据库检索不到问题答案时，能够通过一个prompt来回答这个问题
