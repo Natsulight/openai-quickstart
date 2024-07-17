@@ -141,3 +141,8 @@ This project is licensed under the terms of the Apache-2.0 License . See the [LI
 Django Peng - pjt73651@email.com
 
 Project Link: https://github.com/DjangoPeng/openai-quickstart
+
+## Finish Homework
+- [x] gpt-4v
+- [x] router_chain
+- [x] openai-translator - add support for other languages

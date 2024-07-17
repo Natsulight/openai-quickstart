@@ -146,3 +146,8 @@ Django Peng - pjt73651@email.com
 
 项目链接: https://github.com/DjangoPeng/openai-quickstart
 
+
+## 作业完成情况
+- [x] gpt-4v
+- [x] router_chain
+- [x] openai-translator - 增加对其他语言的支持
