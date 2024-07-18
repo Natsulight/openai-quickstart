@@ -53,11 +53,15 @@ def sales_chat(message, history):
         print(f"[result]{ans['result']}")
         print(f"[source_documents]{ans['source_documents']}")
         if len(ans['source_documents']) == 0:
-            prompt = ChatPromptTemplate.from_messages([
-                ("system", "你是一个中国顶级的房产销售。你需要回复用户关于选购房子上的一些问题。"),
-                ("user", "问题：{user_input}")
-            ])
-            chat = prompt.format_messages(user_input=message)
+            conversation = [("system", "你是一个中国顶级的房产销售。你需要回复用户关于选购房子上的一些问题。")]
+            # 将history作为上下文
+            for user_msg, ai_response in history:
+                conversation.append(("user", user_msg))
+                conversation.append(("ai", ai_response))
+            conversation.append(("user", message))
+            print(f"[conversation]{conversation}")
+            prompt = ChatPromptTemplate.from_messages(conversation)
+            chat = prompt.format_messages()
             chat_result = LLM.invoke(chat)
             print(f"[chat_result.content]{chat_result.content}")
             return chat_result.content
