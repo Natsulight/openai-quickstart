@@ -144,6 +144,11 @@ Project Link: https://github.com/DjangoPeng/openai-quickstart
 
 ## Finish Homework
 - [x] gpt-4v
+- commit: https://github.com/Natsulight/openai-quickstart/commit/e58323fad7d3f73d7c97db00809f6381d871256d
 - [x] router_chain
+- commit: https://github.com/Natsulight/openai-quickstart/commit/4bdbd9cc664663f12ce576dc36de31c0e3b6cbe7
 - [x] openai-translator - add support for other languages
+    - https://github.com/Natsulight/openai-quickstart/commit/9e2036e33131b33b11778dc5f9d4cd963f6a8f64
+    - https://github.com/Natsulight/openai-quickstart/commit/7e64de2ee8a2baef48cf262ad26001bfbfd3b994
 - [x] sales chatbot - When the vector database cannot find the answer to a question, a prompt can be used to answer the question.
+- commit: https://github.com/Natsulight/openai-quickstart/commit/17b7950fad10bbc0a32d08d0f1d6382bb5c7db76
