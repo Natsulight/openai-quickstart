@@ -148,13 +148,8 @@ Django Peng - pjt73651@email.com
 
 
 ## 作业完成情况
-- [x] gpt-4v
-- commit: https://github.com/Natsulight/openai-quickstart/commit/e58323fad7d3f73d7c97db00809f6381d871256d
-- [x] router_chain
-- commit: https://github.com/Natsulight/openai-quickstart/commit/4bdbd9cc664663f12ce576dc36de31c0e3b6cbe7
-- [x] openai-translator - 增加对其他语言的支持
-- commit: 
-    - https://github.com/Natsulight/openai-quickstart/commit/9e2036e33131b33b11778dc5f9d4cd963f6a8f64
-    - https://github.com/Natsulight/openai-quickstart/commit/7e64de2ee8a2baef48cf262ad26001bfbfd3b994
-- [x] sales chatbot - 向量数据库检索不到问题答案时，能够通过一个prompt来回答这个问题
-- commit: https://github.com/Natsulight/openai-quickstart/commit/17b7950fad10bbc0a32d08d0f1d6382bb5c7db76
+- [x] gpt-4v: [commit](https://github.com/Natsulight/openai-quickstart/commit/e58323fad7d3f73d7c97db00809f6381d871256d) [commit](https://github.com/Natsulight/openai-quickstart/commit/15c8fa5a065582dfb4ff4eb20e5c7866a86e29d3)
+- [x] router_chain: [commit](https://github.com/Natsulight/openai-quickstart/commit/4bdbd9cc664663f12ce576dc36de31c0e3b6cbe7)
+- [x] openai-translator - 增加对其他语言的支持: [commit](https://github.com/Natsulight/openai-quickstart/commit/9e2036e33131b33b11778dc5f9d4cd963f6a8f64) [commit](https://github.com/Natsulight/openai-quickstart/commit/7e64de2ee8a2baef48cf262ad26001bfbfd3b994)
+- [x] sales chatbot - 向量数据库检索不到问题答案时，能够通过一个prompt来回答这个问题: [commit](https://github.com/Natsulight/openai-quickstart/commit/17b7950fad10bbc0a32d08d0f1d6382bb5c7db76) [commit](https://github.com/Natsulight/openai-quickstart/commit/6ceed4f43fb5541bc5bdd42740a54a1fdbb222db) [commit](https://github.com/Natsulight/openai-quickstart/commit/b733d2e9c279254cdc69f3be0be42e3261e80f92)
+- [x] shipping sales chatbot - homework 2: [commit](https://github.com/Natsulight/openai-quickstart/commit/59ed67da8299227d3bb309402d228faf1d13226b)
